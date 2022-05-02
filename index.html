@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de Código de Barras</title>
+    <!--links-->
+    <link rel="icon" href="./img/bar.png">
+    <script src="./js/codigo.js"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="titulo">
+    <h1>LEITOR DE CÓDIGO DE BARRAS</h1>
+    <h4>Confira a classificação do seu produto!  </h4></div>
+<br>
+<img src="./img/lup.png">
+<br>
+<div class="texto">
+    <p>Por favor, informe o primeiro número do código de barras do seu produto.</p></div>
+    <br>
+    <br>
+    <input type="hidden" name="num" onclick="selecionarNúmeros('one')">
+    <input type="hidden" name="num" onclick="selecionarNúmeros('two')">
+    <input type="hidden" name="num" onclick="selecionarNúmeros('three')">
+    <input type="hidden" name="num" onclick="selecionarNúmeros('four')">
+    <input type="hidden" name="num" onclick="selecionarNúmeros('five')">
+    
+    <div class="div-bot">
+    <button id="one" onclick="selecionarNúmeros('one')">1</button>
+    <button id="two" onclick="selecionarNúmeros('two')">2</button>
+    <button id="three" onclick="selecionarNúmeros('three')">3</button>
+    <button id="four" onclick="selecionarNúmeros('four')">4</button>
+    <button id="five" onclick="selecionarNúmeros('five')">5</button></div>
+    <br>
+    <br>
+    <div class="res">
+        <br>
+        <img src="./img/category.png"><h3>Categoria</h3>
+        <p id="resultado"></p></div>
+    
+    
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="div-footer"
+<footer>
+    <li>Mercadinho do Senai</li>
+    <li>Florianópolis-SC, Rodovia 401</li>
+    <li>(48) 3239-5800</li>
+</footer>
+</body>
+</html>
+
